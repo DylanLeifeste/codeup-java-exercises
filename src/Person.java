@@ -2,12 +2,15 @@ public class Person {
 
         private String name;
 
+        public Person(String name) {
+            this.name = name;
+        }
 
         public String getName() {
             return name;
         }
 
-        public  Person(String name) {
+        public void setName(String name){
             this.name = name;
         }
 
@@ -21,6 +24,8 @@ public class Person {
         System.out.println(p1.getName());
         System.out.println(p2.getName());
         p1.sayHello();
+        p2.sayHello();
+        p2.setName("Neo");
         p2.sayHello();
     }
 }
