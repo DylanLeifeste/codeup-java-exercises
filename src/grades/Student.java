@@ -46,6 +46,5 @@ public class Student {
         System.out.println();
         System.out.println("Student: " + fernando.getName());
         System.out.println("Avg Grade " + fernando.getGradeAverage());
-
     }
 }
